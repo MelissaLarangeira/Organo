@@ -28,7 +28,7 @@ const[time, setTime] = useState('')
     return (
         <section className="formulario">
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os Dados para Criar o Cargo do Colaborador</h2>
+                <h2>Preencha os Dados para Criar o Colaborador em seu Time</h2>
                 <CampoTexto  
                     obrigatorio={true} 
                     label='Nome' 
